@@ -6,7 +6,7 @@
     "build": "tsc --project tsconfig.build.json",
     "clean": "rimraf dist",
     "lint": "eslint --ext .js,.ts .",
-    "prepublish": "npm run build",
+    "prepublish": "npm-run-all clean lint test build",
     "test": "jest"
   },
   "files": [
