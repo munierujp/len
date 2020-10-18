@@ -1,6 +1,6 @@
 {
   "name": "@munierujp/len",
-  "version": "0.1.3",
+  "version": "1.0.0",
   "description": "Get length",
   "scripts": {
     "build": "tsc --project tsconfig.build.json",
