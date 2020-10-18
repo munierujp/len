@@ -4,8 +4,9 @@
   "description": "Get length",
   "scripts": {
     "build": "tsc --project tsconfig.build.json",
-    "test": "jest",
-    "prepublish": "npm run build"
+    "clean": "rimraf dist",
+    "prepublish": "npm run build",
+    "test": "jest"
   },
   "files": [
     "dist"
